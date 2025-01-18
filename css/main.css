@@ -2,3 +2,21 @@ footer a{
 	text-decoration: none;
 	color: black;
 }
+
+/* animasi untuk gambar me dan svg */
+.profile{
+	animation: smoothMove 3s infinite linear;
+}
+
+
+@keyframes smoothMove {
+	0% {
+	  transform: translateY(0);
+	}
+	50% {
+	  transform: translateY(-30px);
+	}
+	100% {
+	  transform: translateY(0);
+	}
+}
